@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+    /* LINKS */
+    .link {
+        @apply cursor-pointer text-base font-medium text-primary-light hover:text-primary;
+    }
+
+    /* GEOMETRY */
+    .point {
+        @apply mt-2 h-4 w-4 rounded-full p-2;
+    }
+}

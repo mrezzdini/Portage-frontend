@@ -1,0 +1,56 @@
+.input {
+    margin-bottom: 6px;
+    @apply relative block w-full appearance-none rounded-md border 
+    border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-20 focus:border-primary
+    focus:outline-none focus:ring-primary 
+    dark:border-gray-700 dark:bg-gray-600 dark:text-gray-400 dark:placeholder-gray-400 
+    sm:text-sm;
+}
+
+.input-error {
+    @apply z-10 border-red-500 placeholder-red-500 ring-red-500 focus:border-red-500 focus:ring-red-500;
+}
+
+.checkbox {
+    @apply h-4 w-4 cursor-pointer rounded border-gray-300 text-primary focus:ring-primary;
+}
+
+.checkbox-error {
+    @apply border-2 border-red-500;
+}
+
+.radio {
+    @apply h-4 w-4 border-gray-300 text-primary-dark focus:ring-primary;
+}
+
+.radio-error {
+    @apply border-2 border-red-500;
+}
+
+.input-select {
+    margin-bottom: 6px;
+
+    @apply relative w-full cursor-pointer rounded-lg 
+    border border-gray-300 bg-white py-2 pl-3 pr-10 text-left text-gray-800
+    focus:outline-none focus-visible:border-primary focus-visible:ring-2 
+    focus-visible:ring-white focus-visible:ring-opacity-75 
+    focus-visible:ring-offset-2 focus-visible:ring-offset-secondary-light sm:text-sm;
+}
+
+.input-select-error {
+    @apply relative border-red-500;
+}
+
+.input-option {
+    @apply relative block w-full cursor-pointer rounded-md border border-gray-300 bg-white py-2 
+    pl-3 pr-10 text-left focus:z-10 focus:border-primary 
+    focus:outline-none focus:ring-primary sm:text-sm;
+}
+
+.label {
+    @apply mb-[1px] block text-xs font-medium text-gray-700 dark:text-gray-400;
+}
+
+.error-message {
+    @apply pointer-events-none absolute -bottom-4 right-0 flex items-center text-red-500;
+}

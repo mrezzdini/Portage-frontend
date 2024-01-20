@@ -1,0 +1,58 @@
+/* Default styles for the table */
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .invoice-table th,
+  .invoice-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    /* Adjust table layout for smaller screens */
+    .invoice-table {
+      display: block;
+      overflow-x: auto;
+    }
+    
+    .invoice-table thead,
+    .invoice-table tbody,
+    .invoice-table th,
+    .invoice-table td,
+    .invoice-table tr {
+      display: block;
+    }
+    
+    .invoice-table thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    
+    .invoice-table tr {
+      border: 1px solid #ccc;
+      margin-bottom: 12px;
+    }
+    
+    .invoice-table td {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      position: relative;
+      padding-left: 50%;
+    }
+    
+    .invoice-table td:before {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      content: attr(data-label);
+      font-weight: bold;
+    }
+  }
+  

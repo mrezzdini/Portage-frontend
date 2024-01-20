@@ -1,0 +1,179 @@
+.titleOffre {
+    font-family: 'Corbel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #2E3249;
+  }
+  
+  .container {
+    width: 1010px;
+    height: 550px;
+    background: #FFFFFF;
+    border: 1px solid #ECEDF8;
+    box-shadow: 1px 1px 6px rgba(126, 126, 126, 0.15);
+    border-radius: 20px;
+    padding: 24px 70px;
+    margin: 40px auto 0;
+  }
+  
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px 10px 15px;
+    gap: 16px;
+    
+    width: 774px;
+    height: 480px;
+    
+    /* shades/white */
+    
+    background: #c1c8a2;
+    border-radius: 20px;
+    
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2); /* Adjust the box shadow values */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  
+  .postuldiv {
+    position: relative;
+    width: 200px;
+    height: 430px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .top-section {
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px; /* Adjust the size value */
+    /* Add styles for the icon */
+  }
+  
+  .date {
+    position: absolute;
+    top: 40px;
+    margin-left: 20%;
+
+    background-color: #FFFFFF;
+    /* Add styles for the date */
+  }
+  
+  .bottom-section {
+    position: absolute;
+    bottom: 10px;
+    background-color: #FFFFFF;
+    /* Add styles for the bottom section */
+  }
+  
+  .postuler-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    width: 141px;
+    height: 40px;
+    background: linear-gradient(178.36deg, #D8D83D 0%, #BDBD02 98.61%);
+    border: 2px solid #EEEEEE;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 35%;
+  }
+  
+  .descriptiondiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 20px;
+    width: 500px;
+    height: 430px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+  }
+  .textDiv {
+    width: 300px;
+    height: 545px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #2e3249;
+    flex: none;
+    order: 1;
+    flex-direction: column; /* Add this line to change the flex direction */
+  align-items: flex-start; /* Align items to the start */
+    flex-grow: 1;
+  }
+  .postename{
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    
+    color: #2E3249;
+    margin-top: 2%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .ville{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        color: #2E3249;
+    }
+    .DescriptionOffer{
+        font-family: 'times';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 19px;
+        /* identical to box height */
+        display: flex;
+        
+        color: #2E3249;
+        margin-top: 4%;
+
+    }
+  .imageDiv {
+    width: 89px;
+    height: 77px;
+    background: url(path/to/image.png), #f2bfbf;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }

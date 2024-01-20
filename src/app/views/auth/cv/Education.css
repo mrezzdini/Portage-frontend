@@ -1,0 +1,224 @@
+.para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2E3249;
+    margin-right: 10vw; /* Use viewport width unit for responsive margin */
+}
+.para1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2E3249;
+    margin-left: 2vw; /* Use viewport width unit for responsive margin */
+}
+
+.formation-button {
+  display: flex;
+  align-items: center;
+  padding: 2vh 2vw;
+  gap: 20px;
+  width: 14vw;
+  height: 6vh;
+  background: #D8D83D;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-left: 23vw;
+}
+.customField {
+    width: 230px;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(126, 126, 126, 0.15);
+    border-radius: 10px;
+  }
+  .customField1 {
+    width: 476px;
+    height: 158px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(126, 126, 126, 0.15);
+    border-radius: 10px;
+  }
+  .education-card {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 40px 15px;
+    gap: 10px;
+  
+ 
+   
+  
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+  }
+  .education-card1{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 20px 15px;
+    gap: 10px;
+  
+    width: 250px;
+    height: 72px;
+    
+   
+  
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+  }
+  .education-card3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  align-items: center;
+    padding: 20px 15px;
+    gap: 10px;
+  
+    width: 250px;
+    height: 72px;
+    
+   
+  
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+  }
+  .education-card2{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px 15px;
+    gap: 10px;
+  
+    width: 300px;
+
+    
+   
+  
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+  }
+  .education-card4{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px 10px;
+ 
+  
+    width: 300px;
+
+    
+   
+  
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-top: 1vw;
+  }
+  .education-card-0 {
+    display: flex;
+    padding: 10px;
+    background: rgba(227, 227, 97, 0.05);
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    margin-top: 1vw;
+  
+    /* Media query for medium screens */
+    @media (max-width: 768px) {
+      flex-direction: column; /* Switch to column on medium screens */
+    }
+  
+    /* Media query for small screens */
+    @media (max-width: 576px) {
+      /* No need to make further changes for small screens */
+    }
+  }
+  
+  .trashIcon {
+
+width: 35px;
+height: 35px;
+
+
+/* red button fill */
+
+background: #FF7676;
+  }
+  .trash {
+
+width: 21.33px;
+height: 24px;
+
+
+border: 2px solid #FFFFFF;
+/* ombre icon */
+
+box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  }
+  .xButton {
+    display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-radius: 50%;
+  background-color: rgb(103, 100, 100);
+
+  }
+  
+  
+  .homediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px 18px;
+    gap: 10px;
+    width: 300px;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+  
+  .smalldiv{
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 10px 15px;
+gap: 10px;
+
+
+width: 260px;
+
+
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+border-radius: 10px;
+  }
+/*   @media (max-width: 767px) {
+    .flex {
+      flex-direction: column;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .flex {
+      flex-direction: column;
+    }
+  } */

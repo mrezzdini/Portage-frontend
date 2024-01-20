@@ -1,0 +1,137 @@
+.custom-button {
+    background: linear-gradient(to bottom right, #D8D83D 70%, #FFFFFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    width: 249px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+    border-radius: 15px;
+  }
+  .label-nom-type {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    color: #342E49;
+    font-weight: bold;
+    text-transform: lowercase;
+    /* Ajoutez d'autres styles personnalisés si nécessaire */
+  }
+  .label-nom-type span {
+    text-transform: uppercase; /* Convertit seulement la première lettre en majuscule */
+  }
+  .active-link {
+    height: 80px;
+    width: 100px;
+    left: 0px;
+    top: 643px;
+    border-radius: 40px 0 0 40px;
+    padding: 25px 86px 25px 0px;
+  }
+  
+  .searchbar-type-mission input {
+    background-color: #D8D83D; /* Couleur de fond de l'icône */
+    color: #6B6D7C; /* Couleur du texte */
+  }
+
+  .custom-table th,
+.custom-table td {
+  width: 106.6px;
+  height: 112px;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.custom-table th:first-child {
+  border-radius: 15px 0 0 0;
+}
+
+.custom-table td:first-child {
+  border-radius: 0 0 0 15px;
+}
+
+.custom-table th:last-child {
+  border-radius: 0 15px 0 0;
+}
+
+.custom-table td:last-child {
+  border-radius: 0 0 15px 0;
+}
+
+.custom-table th:nth-child(odd),
+.custom-table td:nth-child(odd) {
+  background-color: #ECEDF8;
+}
+
+.custom-table th:nth-child(even),
+.custom-table td:nth-child(even) {
+  background-color: #FAFAFA;
+}
+
+.label-cell {
+  color: #2E3249;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.custom-table tr {
+  color: #6E7397;
+}
+
+
+
+  /*Button type prestation */
+  .custom1-button {
+    background: linear-gradient(to bottom right, #2E3249 70%, #FFFFFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF; 
+    width: 249px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+  }
+
+
+.no-hover-color:hover {
+    color:#fff; 
+}
+
+  /*Button nature pretation */
+  .custom2-button {
+    background: linear-gradient(to bottom right, #E8E9ED 70%, #FFFFFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000; 
+    width: 249px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+  }
+  
+  

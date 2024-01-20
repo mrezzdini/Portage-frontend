@@ -1,0 +1,41 @@
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cv-button {
+    margin-right: 3em;
+    width: 150px;
+    background: initial;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.cv-button.active {
+    background: #2E3249;
+    border: 1px solid #2E3249;
+    color: #D8D83D;
+}
+
+.header-container {
+    width: 272px;
+    height: 24px;
+    font-family: Corbel;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-edge: cap;
+    color: #2E3249;
+}
+
+.cv-title {
+    margin-top: 20px;
+}

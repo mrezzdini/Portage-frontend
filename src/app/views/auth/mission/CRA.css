@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    background-color: #AAC4FF;
+    padding: 2px;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .table_border {
+    border-collapse: collapse;
+    border: none !important;
+  }
+  .select-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
